@@ -19,7 +19,7 @@ const initialState = loadState() || {
       trade_id: "trade-002",
       symbol: "MSFT",
       direction: "SHORT",
-      status: "OPEN",
+      status: "CLOSED",
       setup: null,
       opened_at: "2025-05-25",
       buy: [],
@@ -27,7 +27,7 @@ const initialState = loadState() || {
       notes: "",
     },
     {
-      trade_id: "trade-003",
+      trade_id: "trade-004",
       symbol: "ALPHA",
       direction: "LONG",
       status: "OPEN",

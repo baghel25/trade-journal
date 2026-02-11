@@ -18,6 +18,7 @@
   text-align: center;
   color: white !important;
   border-color: #cacaca91;
+  min-width: 80px;
 }
 .container-header .header-item-center {
   display: flex;
@@ -50,5 +51,5 @@ p {
 
 }
 .table-container {
-  box-shadow: 0px 1px 2px 1px #ffffff63;
+  box-shadow: 0px 1px 2px 1px #ffffff63 !important;
 }

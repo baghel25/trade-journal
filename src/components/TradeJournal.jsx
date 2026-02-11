@@ -18,11 +18,19 @@ export default function TradeJournal() {
 
   return (
     <Box>
-      <Paper backgroundColor="#242424" className="journal-container table-container" >
-        <div className="container-header" >
-
-          <div className="header-item " >
-            <Typography fontWeight="bold" textAlign="center"  className="border-bottom" pt={1} pb={1}>
+      <Paper
+        backgroundColor="#242424"
+        className="journal-container table-container"
+      >
+        <div className="container-header">
+          <div className="header-item ">
+            <Typography
+              fontWeight="bold"
+              textAlign="center"
+              className="border-bottom"
+              pt={1}
+              pb={1}
+            >
               BUY
             </Typography>
 
@@ -33,22 +41,27 @@ export default function TradeJournal() {
                   <TableCell>Price</TableCell>
                   <TableCell>Qty</TableCell>
                   <TableCell>Setup</TableCell>
-                  <TableCell>Date</TableCell>
-                  <TableCell>Action</TableCell>
+                  <TableCell className="date-col">Date</TableCell>
+                  <TableCell className="action-col">Action</TableCell>
                 </TableRow>
               </TableHead>
             </Table>
           </div>
 
-       
           <div item xs={4} className="header-item-center trade-meta ">
-            <Typography fontWeight="bold" textAlign="center"   pt={1} pb={1}>
+            <Typography fontWeight="bold" textAlign="center" pt={1} pb={1}>
               TRADE
             </Typography>
           </div>
 
           <div item className="header-item">
-            <Typography className="border-bottom" fontWeight="bold" textAlign="center"   pt={1} pb={1}>
+            <Typography
+              className="border-bottom"
+              fontWeight="bold"
+              textAlign="center"
+              pt={1}
+              pb={1}
+            >
               SELL
             </Typography>
 
